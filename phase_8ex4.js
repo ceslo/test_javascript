@@ -5,7 +5,7 @@ var y=1;
 
 while (y<=n)
 { 
-    
+
     console.log (x+"x"+y+"="+(y*x));
     ++y
 }
