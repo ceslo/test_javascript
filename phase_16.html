@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="post" id="formulaire">
+<h1>Vos coordonnées</h1>
+<p>*Ces zones sont obligatoires pour envoyer le formulaire.</p>
+<br>
+<label for="societe">Société*:</label>
+<input type="texte" name="societe" id="societe"/>
+<small id="er_soc" ></small>
+<br>
+<label for="contact">Personne à contacter*:</label>
+<input type="texte" name="contact" id="contact"/>
+<small id="er_contact" ></small>
+<br>
+<label for="adresse">Adresse de l'entreprise:</label>
+<input type="textarea" name="adresse" id="adresse"/>
+<small id="er_adresse" ></small>
+<br>
+<label for="cp">Code Postal:*</label>
+<input type="texte" name="cp" id="cp"/>
+<small id="er_cp" ></small>
+<br>
+<label for="ville">Ville:*</label>
+<input type="texte" name="ville" id="ville"/>
+<small id="er_ville" ></small>
+<br>
+<label for="mail">E-mail:*</label>
+<input type="texte" name="mail" id="mail"/>
+<small id="er_mail" ></small>
+<br>
+<label for="tel">Téléphone:</label>
+<input type="texte" name="tel" id="tel"/>
+<small id="er_tel" ></small>
+<br>
+<label for="env">Sélectionnez l'environnement technique du projet:</label>
+<textarea name="env" id="env"> </textarea>
+<small id="er_env" ></small>
+<br>
+<select name="env2" id="env2">
+    <option>Choisissez</option>
+    <option>Access</option>
+    <option>Java</option>
+    <option>Delphi</option>
+    <option>Windev</option>
+    <option>Visual Basic</option>
+    <option>Power Builder</option>
+    <option>Internet</option>
+    <option>Intranet </option>
+    <option>Windows NT</option>
+    <option>SQL Server</option>
+    <option>Oracle</option>
+    <option>Autres</option>
+</select>
+<br>
+<br>
+<input type="button" value="envoyer" id="envoyer"/>
+<input type="reset" value="effacer"  id="effacer"/>
+
+
+</form>
+    <script src="phase_16.js"></script>
+</body>
+</html>
